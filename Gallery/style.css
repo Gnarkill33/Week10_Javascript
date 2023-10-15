@@ -1,0 +1,38 @@
+.gallery{
+    width:100vw;
+    height:100vh;
+    background-image: url(./assets/images/Background.jpg);
+    background-size:cover;
+}
+.title{
+    text-align:center;
+    color:darkblue;
+    
+}
+#element{
+    width:250px;
+    height:300px;
+    display:block;
+    margin:auto;
+    border-radius: 5px;
+}
+#header{
+    padding-top: 100px;
+}
+.button{
+    background-color:black;
+    color:white;
+    font-size:medium;
+    padding:10px 24px;
+    width:120px;
+    border-radius: 12px;
+    border:2px solid white;
+}
+.button:hover {
+    background-color: blue;
+    color: white;
+    }
+.buttons{
+        text-align:center;
+        margin-top:50px;
+    }
