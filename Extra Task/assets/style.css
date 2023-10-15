@@ -1,0 +1,44 @@
+.title{
+    text-align:center;
+    margin-top:5rem;
+}
+.container{
+    width:230px;
+    height:250px;
+}
+.img{
+    width:230px;
+    height:250px;
+}
+.wrap{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    margin-top:7rem;
+}
+.container__pods{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+.container__pad{
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+.button{
+    background-color:black;
+    color:white;
+    font-size:medium;
+    padding:10px 24px;
+    width:190px;
+    border-radius: 6px;
+    border:2px solid white;
+    margin-top:3rem;
+}
+.button-wrap{
+    text-align: center;
+}
+#total{
+    text-align: center;
+    font-weight: bold;
+}
